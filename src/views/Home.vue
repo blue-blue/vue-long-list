@@ -69,6 +69,7 @@ export default {
     console.log(this.$refs.scrollContainer.offsetHeight)
     this.containSize = ~~(this.$refs.scrollContainer.offsetHeight / this.itemHeight) + 2
     console.log(this.containSize)
+    console.log('dev-2 test')
   },
   methods: {
     // 获取列表数据
